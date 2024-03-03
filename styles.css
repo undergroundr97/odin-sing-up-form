@@ -17,20 +17,27 @@ body {
 }
 
 .left-side-bar{
-    background: no-repeat center/100% url(/images/clark-van-der-beken-_fzSGU8AJqM-unsplash.jpg);
+    background: no-repeat center/100% url(/images/catbackground.jpg);
     height: 100vh;
     width: 70vh;
-    position: relative
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.left-side-logo {
-    font-family: Hello Rainbow;
+.left-side-stuff  {
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 2em;
+    font-family: Hello Rainbow;
     color: white;
-    text-align: center;
-    position: absolute;
-    top: 25vh;
-    background-color: rgba(2, 0, 0, 0.411);
+    display: flex;
     align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: inherit;
+    top: 10vh;
+    gap: 15px;
     padding-top: 15px;
 }
