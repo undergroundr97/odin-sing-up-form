@@ -14,6 +14,10 @@
     font-family: 'catcafe';
     src: url('/fonts/CatCafe.ttf');
 }
+@font-face {
+    font-family: catread;
+    src: url('/fonts/Catread.otf');
+}
 *{
     margin: 0;
     padding: 0;
@@ -106,7 +110,8 @@ input{
     border-radius: 10px;
     padding-left: 10px;
     border: 1px solid #E5E7EB;
-    font-family: truecat;
+    font-family: catread;
+    font-size: 20px;
 }
 
 input:focus{
