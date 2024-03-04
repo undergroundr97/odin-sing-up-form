@@ -106,11 +106,13 @@ input{
     border-radius: 10px;
     padding-left: 10px;
     border: 1px solid #E5E7EB;
+    font-family: truecat;
 }
 
 input:focus{
     outline: none;
    border: 3px solid #7B97E4;
+   box-shadow: 1px 1px 1px 1px #111;
 } 
 input:invalid{
     border: 2px solid #BD2A2A;
@@ -154,6 +156,9 @@ button:hover {
 }
 button:active{
     background-color: #aa947ed0;
+}
+button:disabled{
+    background-color: gray;
 }
 
 .right-side-bottom h2{
