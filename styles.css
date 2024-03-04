@@ -55,6 +55,7 @@ body {
     position: relative;
     bottom: 25vh;
     min-width: inherit;
+    gap: 30px;
 }
 .right-sides {
     display: flex;
