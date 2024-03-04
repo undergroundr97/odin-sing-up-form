@@ -1,22 +1,22 @@
 @font-face {
     font-family: "Hello RainboW";
-    src: url('/fonts/Hello\ Rainbow.otf');
+    src: url('fonts/Hello\ Rainbow.otf');
 }
 @font-face{
     font-family: 'truecat';
-    src: url('/fonts/Truecat.otf');
+    src: url('fonts/Truecat.otf');
 }
 @font-face {
     font-family: 'buttonfont';
-    src: url('/fonts/TOMCAT\ DEMO.otf');
+    src: url('fonts/TOMCAT\ DEMO.otf');
 }
 @font-face {
     font-family: 'catcafe';
-    src: url('/fonts/CatCafe.ttf');
+    src: url('fonts/CatCafe.ttf');
 }
 @font-face {
     font-family: catread;
-    src: url('/fonts/Catread.otf');
+    src: url('fonts/Catread.otf');
 }
 *{
     margin: 0;
@@ -30,7 +30,7 @@ body {
 }
 
 .left-side-bar{
-    background: no-repeat center center url(/images/catbackground.jpg);
+    background: no-repeat center center url(images/catbackground.jpg);
     background-size: cover;
     height: 100vh;
     width: 60%;
